@@ -35,8 +35,7 @@ class JottoTest {
       add("salet");
     }
   };
-  private static final ArrayList<String> BAD_WORDS = new ArrayList<>() {
-    {
+  private static final ArrayList<String> BAD_WORDS = new ArrayList<>() {{
       add("fish");
       add("grants");
       add("foo");
